@@ -41,3 +41,9 @@ public class Calculator
         return (double)input_nums[0] / input_nums[1];
     }
 
+    // method to find square
+    int square()
+    {
+        return input_nums[0] * input_nums[0];
+    }
+

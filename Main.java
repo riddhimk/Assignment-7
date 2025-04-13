@@ -48,3 +48,10 @@ public class Main
                 // New Calculator object
                 Calculator calculator = new Calculator();
 
+                switch (choice)
+                {
+                    case 1:
+                        // Case for Addition of two numbers
+                        System.out.println("Result: " + calculator.addition());
+                        break;
+

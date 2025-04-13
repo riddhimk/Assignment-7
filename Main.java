@@ -65,3 +65,8 @@ public class Main
                         System.out.println("Result: " + calculator.multiplication());
                         break;
 
+                    case 4:
+                        // Case for Division of two numbers
+                        System.out.println("Result: " + calculator.division());
+                        break;
+

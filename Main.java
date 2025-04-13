@@ -86,3 +86,17 @@ public class Main
                         break;
                 }
             }
+            // Handle division by zero or sqrt of negative number
+            catch (ArithmeticException e)
+            {
+                System.out.println("Arithmetic Error: " + e.getMessage());
+            }
+
+            // Handle invalid numeric inputs or invalid input choice
+            catch (InvalidInputException e)
+            {
+                System.out.println("Input Error: " + e.getMessage());
+            }
+        }
+    }
+}

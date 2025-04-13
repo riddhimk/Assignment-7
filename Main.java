@@ -70,3 +70,8 @@ public class Main
                         System.out.println("Result: " + calculator.division());
                         break;
 
+                    case 5:
+                        // Case for Square of num1
+                        System.out.println("Result: " + calculator.square());
+                        break;
+

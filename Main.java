@@ -60,3 +60,8 @@ public class Main
                         System.out.println("Result: " + calculator.subtraction());
                         break;
 
+                    case 3:
+                        // Case for Multiplication of two numbers
+                        System.out.println("Result: " + calculator.multiplication());
+                        break;
+

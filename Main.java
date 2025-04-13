@@ -75,3 +75,8 @@ public class Main
                         System.out.println("Result: " + calculator.square());
                         break;
 
+                    case 6:
+                        // Case for Cube of num1
+                        System.out.println("Result: " + calculator.cube());
+                        break;
+

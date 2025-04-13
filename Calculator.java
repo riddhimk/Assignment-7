@@ -53,3 +53,14 @@ public class Calculator
         return input_nums[0] * input_nums[0] * input_nums[0];
     }
 
+    // method to find square root
+    double sqrt()
+    {
+        // throw arithmetic error if input is negative
+        if(input_nums[0] < 0)
+        {
+            throw new ArithmeticException("Enter number >= 0!");
+        }
+        return Math.sqrt((double)input_nums[0]);
+    }
+}

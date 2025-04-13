@@ -30,3 +30,14 @@ public class Calculator
         return input_nums[0] * input_nums[1];
     }
 
+    // method to divide 2 numbers
+    double division()
+    {
+        // throw arithmetic exception if denominator is 0
+        if(input_nums[1] == 0)
+        {
+            throw new ArithmeticException("Division by 0 not allowed!");
+        }
+        return (double)input_nums[0] / input_nums[1];
+    }
+

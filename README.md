@@ -1,4 +1,4 @@
-# Assignment - Calculator with Exception Handling
+# Calculator with Exception Handling
 
 ## Overview  
 This Java program implements a simple **console-based calculator** that demonstrates **exception handling** through **custom and built-in exceptions**. It provides basic arithmetic operations and validates user inputs robustly.

@@ -18,3 +18,9 @@ public class Calculator
         return input_nums[0] + input_nums[1];
     }
 
+    // method to subtract 2 numbers
+    int subtraction()
+    {
+        return input_nums[0] - input_nums[1];
+    }
+

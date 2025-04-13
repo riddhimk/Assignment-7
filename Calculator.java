@@ -24,3 +24,9 @@ public class Calculator
         return input_nums[0] - input_nums[1];
     }
 
+    // method to multiply 2 numbers
+    int multiplication()
+    {
+        return input_nums[0] * input_nums[1];
+    }
+

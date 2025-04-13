@@ -12,3 +12,9 @@ public class Calculator
         input_nums = in.input();
     }
 
+    // method to add 2 numbers
+    int addition()
+    {
+        return input_nums[0] + input_nums[1];
+    }
+
